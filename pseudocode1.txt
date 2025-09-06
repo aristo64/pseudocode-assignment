@@ -1,0 +1,42 @@
+NAME:DICKSON ARISTO
+NIM :2902642442
+
+Session 1
+(Answer to assignment 1)
+
+START 
+    // Define the length and width
+    DEFINE Length AS INTEGER
+    DEFINE Width AS INTEGER
+    SET Length TO 5
+    SET Width TO 3
+
+    // Calculate the area
+    DEFINE Area AS INTEGER
+    SET Area TO Length * Width
+
+    // Display the result
+    PRINT "The area of the rectangle is: ", Area
+END
+
+
+(Answer to assignment 2)
+
+START
+    // Declare variables
+    DEFINE Length AS INTEGER
+    DEFINE Width AS INTEGER
+    DEFINE Area AS INTEGER
+
+    // Get user input for length and width
+    PRINT "Enter the length of the rectangle: "
+    READ Length
+    PRINT "Enter the width of the rectangle: "
+    READ Width
+
+    // Calculate the area
+    SET Area TO Length * Width
+
+    //Display the result
+    PRINT "The area of the rectangle is: ", Area
+END
